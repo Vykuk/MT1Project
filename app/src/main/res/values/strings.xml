@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">MT1Project</string>
+    <string name="hello_world">Locator</string>
 </resources>
