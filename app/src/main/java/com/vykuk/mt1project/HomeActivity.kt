@@ -84,7 +84,7 @@ class HomeActivity : AppCompatActivity() {
             }
 
             override fun onResponse(call: Call, response: Response) {
-                Log.v("IPLOCATOR", "response ${response.body()?.toString()}")
+                Log.v("IPLOCATOR", "response ${response.body()?.string()}")
             }
         })
     }
